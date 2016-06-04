@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1BDBC21928AB2A000E8E90 /* crappyBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1BDBC11928AB2A000E8E90 /* crappyBackground.png */; };
+		EC1BDBC41928ABD4000E8E90 /* blueBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1BDBC31928ABD4000E8E90 /* blueBackground.png */; };
+		EC1BDBC8192A0ED3000E8E90 /* cbAdLarge.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EC1BDBC7192A0ED3000E8E90 /* cbAdLarge.atlas */; };
+		EC1BDBCA192A16BD000E8E90 /* cbAdSmall.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EC1BDBC9192A16BD000E8E90 /* cbAdSmall.atlas */; };
+		EC1BDE29192A17F7000E8E90 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1BDE28192A17F7000E8E90 /* Social.framework */; };
+		EC57ECF419423AD1009F7E79 /* facebook_128.png in Resources */ = {isa = PBXBuildFile; fileRef = EC57ECF319423AD1009F7E79 /* facebook_128.png */; };
+		EC57ECF619423ADA009F7E79 /* twitter_128.png in Resources */ = {isa = PBXBuildFile; fileRef = EC57ECF519423ADA009F7E79 /* twitter_128.png */; };
+		EC57ECF819423AE5009F7E79 /* squarePandaButton_small.png in Resources */ = {isa = PBXBuildFile; fileRef = EC57ECF719423AE5009F7E79 /* squarePandaButton_small.png */; };
+		ECB3CBF51920502500E22D26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB3CBF41920502500E22D26 /* Foundation.framework */; };
+		ECB3CBF71920502500E22D26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB3CBF61920502500E22D26 /* CoreGraphics.framework */; };
+		ECB3CBF91920502500E22D26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB3CBF81920502500E22D26 /* UIKit.framework */; };
+		ECB3CBFB1920502500E22D26 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB3CBFA1920502500E22D26 /* SpriteKit.framework */; };
+		ECB3CC011920502500E22D26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CBFF1920502500E22D26 /* InfoPlist.strings */; };
+		ECB3CC031920502500E22D26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3CC021920502500E22D26 /* main.m */; };
+		ECB3CC071920502500E22D26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3CC061920502500E22D26 /* AppDelegate.m */; };
+		ECB3CC0A1920502500E22D26 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC081920502500E22D26 /* Main_iPhone.storyboard */; };
+		ECB3CC0D1920502500E22D26 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC0B1920502500E22D26 /* Main_iPad.storyboard */; };
+		ECB3CC101920502500E22D26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3CC0F1920502500E22D26 /* ViewController.m */; };
+		ECB3CC131920502500E22D26 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3CC121920502500E22D26 /* MyScene.m */; };
+		ECB3CC151920502500E22D26 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC141920502500E22D26 /* Spaceship.png */; };
+		ECB3CC171920502500E22D26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC161920502500E22D26 /* Images.xcassets */; };
+		ECB3CC1E1920502500E22D26 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB3CC1D1920502500E22D26 /* XCTest.framework */; };
+		ECB3CC1F1920502500E22D26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB3CBF41920502500E22D26 /* Foundation.framework */; };
+		ECB3CC201920502500E22D26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB3CBF81920502500E22D26 /* UIKit.framework */; };
+		ECB3CC281920502500E22D26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC261920502500E22D26 /* InfoPlist.strings */; };
+		ECB3CC2A1920502500E22D26 /* chingamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB3CC291920502500E22D26 /* chingamTests.m */; };
+		ECB3CC371921844100E22D26 /* playerUntouched.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC361921844100E22D26 /* playerUntouched.atlas */; };
+		ECB3CC3B1921882800E22D26 /* playerTouchedRepeat.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC3A1921882800E22D26 /* playerTouchedRepeat.atlas */; };
+		ECB3CC3E1921A2A200E22D26 /* moveButtLeft.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC3C1921A2A200E22D26 /* moveButtLeft.atlas */; };
+		ECB3CC3F1921A2A200E22D26 /* moveButtRight.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC3D1921A2A200E22D26 /* moveButtRight.atlas */; };
+		ECB3CC421921A46000E22D26 /* stillButt.png in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC411921A46000E22D26 /* stillButt.png */; };
+		ECB3CC461921B79000E22D26 /* crap.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC451921B78F00E22D26 /* crap.atlas */; };
+		ECB3CC481921B8B000E22D26 /* crapHit.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC471921B8B000E22D26 /* crapHit.atlas */; };
+		ECB3CC501922BFBB00E22D26 /* playerTouched.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC4F1922BFBB00E22D26 /* playerTouched.atlas */; };
+		ECB3CC521922BFC900E22D26 /* playerShoot.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC511922BFC900E22D26 /* playerShoot.atlas */; };
+		ECB3CC541922BFD300E22D26 /* playerHit.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ECB3CC531922BFD300E22D26 /* playerHit.atlas */; };
+		ECE6F98A19287BAA0050D66C /* yellowFinger.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE6F98919287BAA0050D66C /* yellowFinger.png */; };
+		ECE6F98C19287BB10050D66C /* redFinger.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE6F98B19287BB10050D66C /* redFinger.png */; };
+		ECE6F98E19287BB50050D66C /* blueFinger.png in Resources */ = {isa = PBXBuildFile; fileRef = ECE6F98D19287BB50050D66C /* blueFinger.png */; };
+		ECE6F990192880840050D66C /* buttPooping.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ECE6F98F192880840050D66C /* buttPooping.atlas */; };
+		ECE6F993192884C00050D66C /* buttHit.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ECE6F991192884C00050D66C /* buttHit.atlas */; };
+		ECE6F994192884C00050D66C /* buttHitPerfect.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ECE6F992192884C00050D66C /* buttHitPerfect.atlas */; };
+		ECE6F99619288D1A0050D66C /* upgradeSprite.atlas in Resources */ = {isa = PBXBuildFile; fileRef = ECE6F99519288D1A0050D66C /* upgradeSprite.atlas */; };
+		ECEC9EA119441C8E004E8373 /* addCrap.wav in Resources */ = {isa = PBXBuildFile; fileRef = ECEC9E9E19441C8E004E8373 /* addCrap.wav */; };
+		ECEC9EA219441C8E004E8373 /* addUpgrader.wav in Resources */ = {isa = PBXBuildFile; fileRef = ECEC9E9F19441C8E004E8373 /* addUpgrader.wav */; };
+		ECEC9EA319441C8E004E8373 /* playerHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = ECEC9EA019441C8E004E8373 /* playerHit.wav */; };
+		ECEC9EA519441D49004E8373 /* fingerMiss.wav in Resources */ = {isa = PBXBuildFile; fileRef = ECEC9EA419441D48004E8373 /* fingerMiss.wav */; };
+		ECEC9EA719441DA1004E8373 /* fingerHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = ECEC9EA619441DA1004E8373 /* fingerHit.wav */; };
+		ECEF2C261943CA05007194BA /* timeSprite.png in Resources */ = {isa = PBXBuildFile; fileRef = ECEF2C251943CA05007194BA /* timeSprite.png */; };
+		ECEF2C3419441016007194BA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEF2C3319441016007194BA /* SystemConfiguration.framework */; };
+		ECEF2C361944101D007194BA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEF2C351944101D007194BA /* StoreKit.framework */; };
+		ECEF2C3819441022007194BA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEF2C3719441022007194BA /* MessageUI.framework */; };
+		ECEF2C3A19441029007194BA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEF2C3919441029007194BA /* CoreTelephony.framework */; };
+		ECEF2C3C19441032007194BA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEF2C3B19441032007194BA /* AVFoundation.framework */; };
+		ECEF2C3E1944103E007194BA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEF2C3D1944103E007194BA /* AudioToolbox.framework */; };
+		ECEF2C4019441052007194BA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEF2C3F19441052007194BA /* AdSupport.framework */; };
+		ECEF2C441944110C007194BA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEF2C431944110C007194BA /* Reachability.m */; };
+		ECEF2EC7194415BC007194BA /* RevMobAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEF2EC6194415BC007194BA /* RevMobAds.framework */; };
+		ECEF2EC9194415C4007194BA /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEF2EC8194415C4007194BA /* FacebookSDK.framework */; };
+		ECFD7AA71969533100C8F07D /* flower_small.png in Resources */ = {isa = PBXBuildFile; fileRef = ECFD7AA61969533100C8F07D /* flower_small.png */; };
+		ECFD7AA919695BB500C8F07D /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = ECFD7AA819695BB500C8F07D /* flower.png */; };
+		ECFD7AAB196C244B00C8F07D /* instructions.png in Resources */ = {isa = PBXBuildFile; fileRef = ECFD7AAA196C244B00C8F07D /* instructions.png */; };
+		ECFD7AAD196C2B4000C8F07D /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECFD7AAC196C2B4000C8F07D /* theme.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB3CC211920502500E22D26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB3CBE91920502400E22D26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB3CBF01920502500E22D26;
+			remoteInfo = chingam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1BDBC11928AB2A000E8E90 /* crappyBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crappyBackground.png; sourceTree = "<group>"; };
+		EC1BDBC31928ABD4000E8E90 /* blueBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBackground.png; sourceTree = "<group>"; };
+		EC1BDBC7192A0ED3000E8E90 /* cbAdLarge.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = cbAdLarge.atlas; sourceTree = "<group>"; };
+		EC1BDBC9192A16BD000E8E90 /* cbAdSmall.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = cbAdSmall.atlas; sourceTree = "<group>"; };
+		EC1BDE28192A17F7000E8E90 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		EC57ECF319423AD1009F7E79 /* facebook_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook_128.png; sourceTree = "<group>"; };
+		EC57ECF519423ADA009F7E79 /* twitter_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_128.png; sourceTree = "<group>"; };
+		EC57ECF719423AE5009F7E79 /* squarePandaButton_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squarePandaButton_small.png; sourceTree = "<group>"; };
+		ECB3CBF11920502500E22D26 /* chingam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chingam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB3CBF41920502500E22D26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECB3CBF61920502500E22D26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ECB3CBF81920502500E22D26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ECB3CBFA1920502500E22D26 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		ECB3CBFE1920502500E22D26 /* chingam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chingam-Info.plist"; sourceTree = "<group>"; };
+		ECB3CC001920502500E22D26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECB3CC021920502500E22D26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECB3CC041920502500E22D26 /* chingam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chingam-Prefix.pch"; sourceTree = "<group>"; };
+		ECB3CC051920502500E22D26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECB3CC061920502500E22D26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECB3CC091920502500E22D26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		ECB3CC0C1920502500E22D26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		ECB3CC0E1920502500E22D26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECB3CC0F1920502500E22D26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECB3CC111920502500E22D26 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		ECB3CC121920502500E22D26 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		ECB3CC141920502500E22D26 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		ECB3CC161920502500E22D26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECB3CC1C1920502500E22D26 /* chingamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chingamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB3CC1D1920502500E22D26 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ECB3CC251920502500E22D26 /* chingamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "chingamTests-Info.plist"; sourceTree = "<group>"; };
+		ECB3CC271920502500E22D26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECB3CC291920502500E22D26 /* chingamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chingamTests.m; sourceTree = "<group>"; };
+		ECB3CC361921844100E22D26 /* playerUntouched.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = playerUntouched.atlas; sourceTree = "<group>"; };
+		ECB3CC3A1921882800E22D26 /* playerTouchedRepeat.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = playerTouchedRepeat.atlas; sourceTree = "<group>"; };
+		ECB3CC3C1921A2A200E22D26 /* moveButtLeft.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = moveButtLeft.atlas; sourceTree = "<group>"; };
+		ECB3CC3D1921A2A200E22D26 /* moveButtRight.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = moveButtRight.atlas; sourceTree = "<group>"; };
+		ECB3CC411921A46000E22D26 /* stillButt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stillButt.png; sourceTree = "<group>"; };
+		ECB3CC451921B78F00E22D26 /* crap.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = crap.atlas; sourceTree = "<group>"; };
+		ECB3CC471921B8B000E22D26 /* crapHit.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = crapHit.atlas; sourceTree = "<group>"; };
+		ECB3CC4F1922BFBB00E22D26 /* playerTouched.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = playerTouched.atlas; sourceTree = "<group>"; };
+		ECB3CC511922BFC900E22D26 /* playerShoot.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = playerShoot.atlas; sourceTree = "<group>"; };
+		ECB3CC531922BFD300E22D26 /* playerHit.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = playerHit.atlas; sourceTree = "<group>"; };
+		ECE6F98919287BAA0050D66C /* yellowFinger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowFinger.png; sourceTree = "<group>"; };
+		ECE6F98B19287BB10050D66C /* redFinger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redFinger.png; sourceTree = "<group>"; };
+		ECE6F98D19287BB50050D66C /* blueFinger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueFinger.png; sourceTree = "<group>"; };
+		ECE6F98F192880840050D66C /* buttPooping.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = buttPooping.atlas; sourceTree = "<group>"; };
+		ECE6F991192884C00050D66C /* buttHit.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = buttHit.atlas; sourceTree = "<group>"; };
+		ECE6F992192884C00050D66C /* buttHitPerfect.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = buttHitPerfect.atlas; sourceTree = "<group>"; };
+		ECE6F99519288D1A0050D66C /* upgradeSprite.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = upgradeSprite.atlas; sourceTree = "<group>"; };
+		ECEC9E9E19441C8E004E8373 /* addCrap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = addCrap.wav; path = ../addCrap.wav; sourceTree = "<group>"; };
+		ECEC9E9F19441C8E004E8373 /* addUpgrader.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = addUpgrader.wav; path = ../addUpgrader.wav; sourceTree = "<group>"; };
+		ECEC9EA019441C8E004E8373 /* playerHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = playerHit.wav; path = ../playerHit.wav; sourceTree = "<group>"; };
+		ECEC9EA419441D48004E8373 /* fingerMiss.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fingerMiss.wav; sourceTree = "<group>"; };
+		ECEC9EA619441DA1004E8373 /* fingerHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fingerHit.wav; sourceTree = "<group>"; };
+		ECEF2C251943CA05007194BA /* timeSprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeSprite.png; sourceTree = "<group>"; };
+		ECEF2C2A19440F23007194BA /* GADAdMobExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		ECEF2C2B19440F23007194BA /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		ECEF2C2C19440F23007194BA /* GADAdSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		ECEF2C2D19440F23007194BA /* GADBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		ECEF2C2E19440F23007194BA /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		ECEF2C2F19440F23007194BA /* GADInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		ECEF2C3019440F23007194BA /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		ECEF2C3119440F23007194BA /* GADRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		ECEF2C3219440F23007194BA /* GADRequestError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		ECEF2C3319441016007194BA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		ECEF2C351944101D007194BA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		ECEF2C3719441022007194BA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		ECEF2C3919441029007194BA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		ECEF2C3B19441032007194BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		ECEF2C3D1944103E007194BA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		ECEF2C3F19441052007194BA /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		ECEF2C421944110C007194BA /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		ECEF2C431944110C007194BA /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		ECEF2EC6194415BC007194BA /* RevMobAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevMobAds.framework; sourceTree = "<group>"; };
+		ECEF2EC8194415C4007194BA /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		ECFD7AA61969533100C8F07D /* flower_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower_small.png; sourceTree = "<group>"; };
+		ECFD7AA819695BB500C8F07D /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
+		ECFD7AAA196C244B00C8F07D /* instructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instructions.png; sourceTree = "<group>"; };
+		ECFD7AAC196C2B4000C8F07D /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB3CBEE1920502500E22D26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEF2C4019441052007194BA /* AdSupport.framework in Frameworks */,
+				ECEF2C3E1944103E007194BA /* AudioToolbox.framework in Frameworks */,
+				ECEF2C3C19441032007194BA /* AVFoundation.framework in Frameworks */,
+				ECEF2C3A19441029007194BA /* CoreTelephony.framework in Frameworks */,
+				ECEF2C3819441022007194BA /* MessageUI.framework in Frameworks */,
+				ECEF2C361944101D007194BA /* StoreKit.framework in Frameworks */,
+				ECEF2C3419441016007194BA /* SystemConfiguration.framework in Frameworks */,
+				ECEF2EC7194415BC007194BA /* RevMobAds.framework in Frameworks */,
+				EC1BDE29192A17F7000E8E90 /* Social.framework in Frameworks */,
+				ECB3CBF71920502500E22D26 /* CoreGraphics.framework in Frameworks */,
+				ECEF2EC9194415C4007194BA /* FacebookSDK.framework in Frameworks */,
+				ECB3CBF91920502500E22D26 /* UIKit.framework in Frameworks */,
+				ECB3CBFB1920502500E22D26 /* SpriteKit.framework in Frameworks */,
+				ECB3CBF51920502500E22D26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB3CC191920502500E22D26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3CC1E1920502500E22D26 /* XCTest.framework in Frameworks */,
+				ECB3CC201920502500E22D26 /* UIKit.framework in Frameworks */,
+				ECB3CC1F1920502500E22D26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB3CBE81920502400E22D26 = {
+			isa = PBXGroup;
+			children = (
+				ECEF2C421944110C007194BA /* Reachability.h */,
+				ECEF2C431944110C007194BA /* Reachability.m */,
+				ECEF2C2919440F18007194BA /* admob */,
+				ECB3CBFC1920502500E22D26 /* chingam */,
+				ECB3CC231920502500E22D26 /* chingamTests */,
+				ECB3CBF31920502500E22D26 /* Frameworks */,
+				ECB3CBF21920502500E22D26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB3CBF21920502500E22D26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3CBF11920502500E22D26 /* chingam.app */,
+				ECB3CC1C1920502500E22D26 /* chingamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB3CBF31920502500E22D26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECEF2EC8194415C4007194BA /* FacebookSDK.framework */,
+				ECEF2EC6194415BC007194BA /* RevMobAds.framework */,
+				ECEF2C3F19441052007194BA /* AdSupport.framework */,
+				ECEF2C3D1944103E007194BA /* AudioToolbox.framework */,
+				ECEF2C3B19441032007194BA /* AVFoundation.framework */,
+				ECEF2C3919441029007194BA /* CoreTelephony.framework */,
+				ECEF2C3719441022007194BA /* MessageUI.framework */,
+				ECEF2C351944101D007194BA /* StoreKit.framework */,
+				ECEF2C3319441016007194BA /* SystemConfiguration.framework */,
+				EC1BDE28192A17F7000E8E90 /* Social.framework */,
+				ECB3CBF41920502500E22D26 /* Foundation.framework */,
+				ECB3CBF61920502500E22D26 /* CoreGraphics.framework */,
+				ECB3CBF81920502500E22D26 /* UIKit.framework */,
+				ECB3CBFA1920502500E22D26 /* SpriteKit.framework */,
+				ECB3CC1D1920502500E22D26 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECB3CBFC1920502500E22D26 /* chingam */ = {
+			isa = PBXGroup;
+			children = (
+				ECFD7AAC196C2B4000C8F07D /* theme.mp3 */,
+				ECEC9EA619441DA1004E8373 /* fingerHit.wav */,
+				ECEC9E9E19441C8E004E8373 /* addCrap.wav */,
+				ECEC9E9F19441C8E004E8373 /* addUpgrader.wav */,
+				ECEC9EA019441C8E004E8373 /* playerHit.wav */,
+				ECEC9EA419441D48004E8373 /* fingerMiss.wav */,
+				ECEF2C251943CA05007194BA /* timeSprite.png */,
+				EC57ECF319423AD1009F7E79 /* facebook_128.png */,
+				EC57ECF519423ADA009F7E79 /* twitter_128.png */,
+				EC57ECF719423AE5009F7E79 /* squarePandaButton_small.png */,
+				ECFD7AA819695BB500C8F07D /* flower.png */,
+				ECFD7AA61969533100C8F07D /* flower_small.png */,
+				ECB3CC401921A44C00E22D26 /* images */,
+				ECB3CC331921805500E22D26 /* Atlas */,
+				ECB3CC051920502500E22D26 /* AppDelegate.h */,
+				ECB3CC061920502500E22D26 /* AppDelegate.m */,
+				ECFD7AAA196C244B00C8F07D /* instructions.png */,
+				ECB3CC081920502500E22D26 /* Main_iPhone.storyboard */,
+				ECB3CC0B1920502500E22D26 /* Main_iPad.storyboard */,
+				ECB3CC0E1920502500E22D26 /* ViewController.h */,
+				ECB3CC0F1920502500E22D26 /* ViewController.m */,
+				ECB3CC111920502500E22D26 /* MyScene.h */,
+				ECB3CC121920502500E22D26 /* MyScene.m */,
+				ECB3CC141920502500E22D26 /* Spaceship.png */,
+				ECB3CC161920502500E22D26 /* Images.xcassets */,
+				ECB3CBFD1920502500E22D26 /* Supporting Files */,
+			);
+			path = chingam;
+			sourceTree = "<group>";
+		};
+		ECB3CBFD1920502500E22D26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3CBFE1920502500E22D26 /* chingam-Info.plist */,
+				ECB3CBFF1920502500E22D26 /* InfoPlist.strings */,
+				ECB3CC021920502500E22D26 /* main.m */,
+				ECB3CC041920502500E22D26 /* chingam-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB3CC231920502500E22D26 /* chingamTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3CC291920502500E22D26 /* chingamTests.m */,
+				ECB3CC241920502500E22D26 /* Supporting Files */,
+			);
+			path = chingamTests;
+			sourceTree = "<group>";
+		};
+		ECB3CC241920502500E22D26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3CC251920502500E22D26 /* chingamTests-Info.plist */,
+				ECB3CC261920502500E22D26 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB3CC331921805500E22D26 /* Atlas */ = {
+			isa = PBXGroup;
+			children = (
+				EC1BDBC7192A0ED3000E8E90 /* cbAdLarge.atlas */,
+				EC1BDBC9192A16BD000E8E90 /* cbAdSmall.atlas */,
+				ECE6F991192884C00050D66C /* buttHit.atlas */,
+				ECE6F992192884C00050D66C /* buttHitPerfect.atlas */,
+				ECE6F98F192880840050D66C /* buttPooping.atlas */,
+				ECB3CC531922BFD300E22D26 /* playerHit.atlas */,
+				ECB3CC511922BFC900E22D26 /* playerShoot.atlas */,
+				ECB3CC4F1922BFBB00E22D26 /* playerTouched.atlas */,
+				ECB3CC471921B8B000E22D26 /* crapHit.atlas */,
+				ECB3CC451921B78F00E22D26 /* crap.atlas */,
+				ECB3CC3C1921A2A200E22D26 /* moveButtLeft.atlas */,
+				ECB3CC3D1921A2A200E22D26 /* moveButtRight.atlas */,
+				ECB3CC3A1921882800E22D26 /* playerTouchedRepeat.atlas */,
+				ECB3CC361921844100E22D26 /* playerUntouched.atlas */,
+				ECE6F99519288D1A0050D66C /* upgradeSprite.atlas */,
+			);
+			name = Atlas;
+			sourceTree = "<group>";
+		};
+		ECB3CC401921A44C00E22D26 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				ECE6F98D19287BB50050D66C /* blueFinger.png */,
+				ECE6F98919287BAA0050D66C /* yellowFinger.png */,
+				ECE6F98B19287BB10050D66C /* redFinger.png */,
+				ECB3CC411921A46000E22D26 /* stillButt.png */,
+				EC1BDBC11928AB2A000E8E90 /* crappyBackground.png */,
+				EC1BDBC31928ABD4000E8E90 /* blueBackground.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		ECEF2C2919440F18007194BA /* admob */ = {
+			isa = PBXGroup;
+			children = (
+				ECEF2C2A19440F23007194BA /* GADAdMobExtras.h */,
+				ECEF2C2B19440F23007194BA /* GADAdNetworkExtras.h */,
+				ECEF2C2C19440F23007194BA /* GADAdSize.h */,
+				ECEF2C2D19440F23007194BA /* GADBannerView.h */,
+				ECEF2C2E19440F23007194BA /* GADBannerViewDelegate.h */,
+				ECEF2C2F19440F23007194BA /* GADInterstitial.h */,
+				ECEF2C3019440F23007194BA /* GADInterstitialDelegate.h */,
+				ECEF2C3119440F23007194BA /* GADRequest.h */,
+				ECEF2C3219440F23007194BA /* GADRequestError.h */,
+			);
+			name = admob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB3CBF01920502500E22D26 /* chingam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB3CC2D1920502500E22D26 /* Build configuration list for PBXNativeTarget "chingam" */;
+			buildPhases = (
+				ECB3CBED1920502500E22D26 /* Sources */,
+				ECB3CBEE1920502500E22D26 /* Frameworks */,
+				ECB3CBEF1920502500E22D26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chingam;
+			productName = chingam;
+			productReference = ECB3CBF11920502500E22D26 /* chingam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB3CC1B1920502500E22D26 /* chingamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB3CC301920502500E22D26 /* Build configuration list for PBXNativeTarget "chingamTests" */;
+			buildPhases = (
+				ECB3CC181920502500E22D26 /* Sources */,
+				ECB3CC191920502500E22D26 /* Frameworks */,
+				ECB3CC1A1920502500E22D26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB3CC221920502500E22D26 /* PBXTargetDependency */,
+			);
+			name = chingamTests;
+			productName = chingamTests;
+			productReference = ECB3CC1C1920502500E22D26 /* chingamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB3CBE91920502400E22D26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rijul Gupta";
+				TargetAttributes = {
+					ECB3CC1B1920502500E22D26 = {
+						TestTargetID = ECB3CBF01920502500E22D26;
+					};
+				};
+			};
+			buildConfigurationList = ECB3CBEC1920502400E22D26 /* Build configuration list for PBXProject "chingam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				he,
+			);
+			mainGroup = ECB3CBE81920502400E22D26;
+			productRefGroup = ECB3CBF21920502500E22D26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB3CBF01920502500E22D26 /* chingam */,
+				ECB3CC1B1920502500E22D26 /* chingamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB3CBEF1920502500E22D26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3CC501922BFBB00E22D26 /* playerTouched.atlas in Resources */,
+				ECEC9EA519441D49004E8373 /* fingerMiss.wav in Resources */,
+				ECB3CC371921844100E22D26 /* playerUntouched.atlas in Resources */,
+				ECB3CC151920502500E22D26 /* Spaceship.png in Resources */,
+				ECB3CC171920502500E22D26 /* Images.xcassets in Resources */,
+				ECB3CC3F1921A2A200E22D26 /* moveButtRight.atlas in Resources */,
+				ECFD7AA71969533100C8F07D /* flower_small.png in Resources */,
+				EC1BDBC41928ABD4000E8E90 /* blueBackground.png in Resources */,
+				ECB3CC0D1920502500E22D26 /* Main_iPad.storyboard in Resources */,
+				ECB3CC3E1921A2A200E22D26 /* moveButtLeft.atlas in Resources */,
+				ECFD7AAB196C244B00C8F07D /* instructions.png in Resources */,
+				ECE6F99619288D1A0050D66C /* upgradeSprite.atlas in Resources */,
+				ECB3CC461921B79000E22D26 /* crap.atlas in Resources */,
+				ECB3CC421921A46000E22D26 /* stillButt.png in Resources */,
+				ECB3CC0A1920502500E22D26 /* Main_iPhone.storyboard in Resources */,
+				ECE6F98E19287BB50050D66C /* blueFinger.png in Resources */,
+				EC57ECF419423AD1009F7E79 /* facebook_128.png in Resources */,
+				ECFD7AAD196C2B4000C8F07D /* theme.mp3 in Resources */,
+				ECFD7AA919695BB500C8F07D /* flower.png in Resources */,
+				ECEC9EA219441C8E004E8373 /* addUpgrader.wav in Resources */,
+				EC1BDBCA192A16BD000E8E90 /* cbAdSmall.atlas in Resources */,
+				ECEF2C261943CA05007194BA /* timeSprite.png in Resources */,
+				ECE6F98A19287BAA0050D66C /* yellowFinger.png in Resources */,
+				EC1BDBC8192A0ED3000E8E90 /* cbAdLarge.atlas in Resources */,
+				ECB3CC541922BFD300E22D26 /* playerHit.atlas in Resources */,
+				ECB3CC521922BFC900E22D26 /* playerShoot.atlas in Resources */,
+				ECE6F98C19287BB10050D66C /* redFinger.png in Resources */,
+				ECB3CC3B1921882800E22D26 /* playerTouchedRepeat.atlas in Resources */,
+				EC57ECF819423AE5009F7E79 /* squarePandaButton_small.png in Resources */,
+				ECE6F993192884C00050D66C /* buttHit.atlas in Resources */,
+				ECEC9EA119441C8E004E8373 /* addCrap.wav in Resources */,
+				ECE6F990192880840050D66C /* buttPooping.atlas in Resources */,
+				EC1BDBC21928AB2A000E8E90 /* crappyBackground.png in Resources */,
+				ECB3CC011920502500E22D26 /* InfoPlist.strings in Resources */,
+				ECB3CC481921B8B000E22D26 /* crapHit.atlas in Resources */,
+				EC57ECF619423ADA009F7E79 /* twitter_128.png in Resources */,
+				ECEC9EA719441DA1004E8373 /* fingerHit.wav in Resources */,
+				ECEC9EA319441C8E004E8373 /* playerHit.wav in Resources */,
+				ECE6F994192884C00050D66C /* buttHitPerfect.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB3CC1A1920502500E22D26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3CC281920502500E22D26 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB3CBED1920502500E22D26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3CC131920502500E22D26 /* MyScene.m in Sources */,
+				ECB3CC101920502500E22D26 /* ViewController.m in Sources */,
+				ECB3CC071920502500E22D26 /* AppDelegate.m in Sources */,
+				ECB3CC031920502500E22D26 /* main.m in Sources */,
+				ECEF2C441944110C007194BA /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB3CC181920502500E22D26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3CC2A1920502500E22D26 /* chingamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB3CC221920502500E22D26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB3CBF01920502500E22D26 /* chingam */;
+			targetProxy = ECB3CC211920502500E22D26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB3CBFF1920502500E22D26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB3CC001920502500E22D26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECB3CC081920502500E22D26 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB3CC091920502500E22D26 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB3CC0B1920502500E22D26 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB3CC0C1920502500E22D26 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB3CC261920502500E22D26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB3CC271920502500E22D26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB3CC2B1920502500E22D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB3CC2C1920502500E22D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB3CC2E1920502500E22D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/revmob-ios-sdk",
+					"$(PROJECT_DIR)/revmob-ios-sdk/RevMobSampleApp",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chingam/chingam-Prefix.pch";
+				INFOPLIST_FILE = "chingam/chingam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECB3CC2F1920502500E22D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/revmob-ios-sdk",
+					"$(PROJECT_DIR)/revmob-ios-sdk/RevMobSampleApp",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chingam/chingam-Prefix.pch";
+				INFOPLIST_FILE = "chingam/chingam-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECB3CC311920502500E22D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/chingam.app/chingam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chingam/chingam-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "chingamTests/chingamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ECB3CC321920502500E22D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/chingam.app/chingam";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "chingam/chingam-Prefix.pch";
+				INFOPLIST_FILE = "chingamTests/chingamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB3CBEC1920502400E22D26 /* Build configuration list for PBXProject "chingam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB3CC2B1920502500E22D26 /* Debug */,
+				ECB3CC2C1920502500E22D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB3CC2D1920502500E22D26 /* Build configuration list for PBXNativeTarget "chingam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB3CC2E1920502500E22D26 /* Debug */,
+				ECB3CC2F1920502500E22D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB3CC301920502500E22D26 /* Build configuration list for PBXNativeTarget "chingamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB3CC311920502500E22D26 /* Debug */,
+				ECB3CC321920502500E22D26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB3CBE91920502400E22D26 /* Project object */;
+}
